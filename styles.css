@@ -13,7 +13,26 @@
 }
 
 .mySlides img {
-  max-height: 400px;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.demo.cursor {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+
+
+
+  /*width: 10;
+  height: 10;
+  width: 100%;
+  height: 50%;
+  /*max-height: 120px;
+  min-height: 50px;
+  object-fit: cover;*/
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -77,6 +96,7 @@
 .column {
   float: left;
   width: 33.33%;
+  height: 125px;
 }
 
 /* Add a transparency effect for thumnbail images */

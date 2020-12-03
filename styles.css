@@ -8,31 +8,20 @@
 }
 
 /* Hide the images by default */
-.mySlides {
+.mySlides1, .mySlides2 {
   display: none;
 }
 
-.mySlides img {
+.mySlides1 img, .mySlides2 img {
   width: 100%;
   height: 400px;
-  object-fit: cover;
+  object-fit: fill;
 }
 
-.demo.cursor {
+.demo1.cursor, .demo2.cursor {
   height: 100%;
   width: 100%;
-  object-fit: cover;
-
-
-
-
-  /*width: 10;
-  height: 10;
-  width: 100%;
-  height: 50%;
-  /*max-height: 120px;
-  min-height: 50px;
-  object-fit: cover;*/
+  object-fit: fill;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -93,18 +82,24 @@
 }
 
 /* Three columns side by side */
-.column {
+.column1 {
   float: left;
   width: 33.33%;
   height: 125px;
 }
 
+.column2 {
+  float: left;
+  width: 14.28%;
+  height: 80px;
+}
+
 /* Add a transparency effect for thumnbail images */
-.demo {
+.demo1, .demo2 {
   opacity: 0.6;
 }
 
 .active,
-.demo:hover {
+.demo1:hover, .demo2:hover {
   opacity: 1;
 }
